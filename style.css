@@ -6,8 +6,22 @@
 .card{
     margin: 10px;
 }
-#modalButton{
+.modalButton{
 
     display: flex;
     justify-content: flex-end;
+}
+.modalButton{
+    margin: fit-content;
+}
+.navbar-brand{
+    margin-right: 150px
+}
+.createbuton{
+    display: flex;
+    justify-content: flex-end;
+}
+.gallery{
+    columns:4 320px;
+    column-gap: 0.5em;
 }

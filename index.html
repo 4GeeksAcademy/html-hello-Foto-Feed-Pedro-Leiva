@@ -14,13 +14,16 @@
 </head>
 
 <body>
+
+  <div class="container-fluid">
   <nav class="navbar bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand"><i class="fa-brands fa-instagram"></i> instagram</a>
       <form class="d-flex" role="search">
+        <div class="createbuton">
         <button type="button" id="modalButton" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
           data-bs-whatever="@mdo">Create a new post</button>
-
+        
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -51,7 +54,8 @@
             </div>
           </div>
         </div>
-        <!-- Example single danger button -->
+
+
         <div class="btn-group">
           <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
             aria-expanded="false"><i class="fa-solid fa-gear"></i>
@@ -66,9 +70,14 @@
             <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
           </ul>
         </div>
+      </div>
+        <!-- Example single danger button -->
       </form>
     </div>
   </nav>
+</div>
+
+
   <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
     <li class="nav-item" role="presentation">
       <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button"
@@ -169,45 +178,55 @@
     
     <div class="tab-pane fade row" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
       <div class="row">
-      
-      <div class="card col-6" style="width: 18rem;">
+      <div class="gallery">
+        <div class="col-4">
+      <div class="card" style="width: 18rem;">
         <img
         src="https://images.unsplash.com/photo-1737749684915-29624dc30552?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8"
         class="card-img-top" alt="boda en la montaña">
       </div>
+      </div>
       
-      
-      <div class="card col-6" style="width: 18rem;">
+      <div class="col-4">
+      <div class="card" style="width: 18rem;">
         <img
         src="https://images.unsplash.com/photo-1735760672905-954da053c445?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D"
         class="card-img-top" alt="faro-nocturno">
       </div>
-      
-      <div class="card col-4" style="width: 18rem;">
+      </div>
+
+      <div class="col-4">
+      <div class="card" style="width: 18rem;">
         <img
         src="https://images.unsplash.com/photo-1736943993933-c1a407ed783c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0MHx8fGVufDB8fHx8fA%3D%3D"
         class="card-img-top" alt="bueceo">
-        
       </div>
-      
-      <div class="card col-4" style="width: 18rem;">
+      </div>
+
+      <div class="col-4">
+      <div class="card" style="width: 18rem;">
         <img
         src="https://images.unsplash.com/photo-1537442949530-d90f6a1377c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0OHx8fGVufDB8fHx8fA%3D%3D"
           class="card-img-top" alt="Oso-Polar">
         </div>
-        
-        <div class="card col-4" style="width: 18rem;">
+        </div>
+
+        <div class="col-4">
+        <div class="card" style="width: 18rem;">
           <img src="https://images.unsplash.com/photo-1738058223926-c82cf2128f6a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="cenita">
         </div>
+      </div>
         
-        <div class="card col-4" style="width: 18rem;">
+        <div class="col-4">
+        <div class="card" style="width: 18rem;">
           <img src="https://images.unsplash.com/photo-1737901685093-c5e05706efcf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2OHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Perfect-time">
         </div>
-        
+        </div>
       </div>
 
     </div>
 
+    </div>
     </div>
     
     
