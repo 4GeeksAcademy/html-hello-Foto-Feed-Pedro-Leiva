@@ -25,3 +25,11 @@
     columns:4 320px;
     column-gap: 0.5em;
 }
+#profile-tab-pane .img-grid{
+    height: 250px;
+    object-fit:cover;
+    width: 100%;
+}
+#profile-tab-pane .card{
+    height: 100%;
+}

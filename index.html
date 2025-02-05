@@ -16,66 +16,67 @@
 <body>
 
   <div class="container-fluid">
-  <nav class="navbar bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand"><i class="fa-brands fa-instagram"></i> instagram</a>
-      <form class="d-flex" role="search">
-        <div class="createbuton">
-        <button type="button" id="modalButton" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
-          data-bs-whatever="@mdo">Create a new post</button>
-        
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <form>
-                  <div class="mb-3">
-                    <label for="message-text" class="col-form-label">Message:</label>
-                    <textarea class="form-control" id="message-text"></textarea>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand"><i class="fa-brands fa-instagram"></i> instagram</a>
+        <form class="d-flex" role="search">
+          <div class="createbuton">
+            <button type="button" id="modalButton" class="btn btn-success" data-bs-toggle="modal"
+              data-bs-target="#exampleModal" data-bs-whatever="@mdo">Create a new post</button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
-                  <div class="modalButtons">
-                    <button>
-                      <i class="fa-solid fa-camera"></i>
-                    </button>
-                    <button>
-                      <i class="fa-solid fa-location-dot"></i>
-                    </button>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                      <div class="modalButtons">
+                        <button>
+                          <i class="fa-solid fa-camera"></i>
+                        </button>
+                        <button>
+                          <i class="fa-solid fa-location-dot"></i>
+                        </button>
+                      </div>
+                    </form>
                   </div>
-                </form>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-success">Publish</button>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Publish</button>
+                  </div>
+                </div>
               </div>
             </div>
+
+
+            <div class="btn-group">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false"><i class="fa-solid fa-gear"></i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+              </ul>
+            </div>
           </div>
-        </div>
-
-
-        <div class="btn-group">
-          <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
-            aria-expanded="false"><i class="fa-solid fa-gear"></i>
-          </button>
-          <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" href="#">Profile</a></li>
-            <li><a class="dropdown-item" href="#">Accesibility</a></li>
-            <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
-          </ul>
-        </div>
+          <!-- Example single danger button -->
+        </form>
       </div>
-        <!-- Example single danger button -->
-      </form>
-    </div>
-  </nav>
-</div>
+    </nav>
+  </div>
 
 
   <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
@@ -149,7 +150,9 @@
         <div class="header">
           <h3>Cenita Rica</h3>
         </div>
-        <img src="https://images.unsplash.com/photo-1738058223926-c82cf2128f6a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="cenita">
+        <img
+          src="https://images.unsplash.com/photo-1738058223926-c82cf2128f6a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D"
+          class="card-img-top" alt="cenita">
         <div class="card-body">
           <p><strong>1750 Likes</strong></p>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -161,8 +164,10 @@
         <div class="header">
           <h3>En el momento exacto</h3>
         </div>
-        <img src="https://images.unsplash.com/photo-1737901685093-c5e05706efcf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2OHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Perfect-time">
-        <div class="card-bo3y">
+        <img
+          src="https://images.unsplash.com/photo-1737901685093-c5e05706efcf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2OHx8fGVufDB8fHx8fA%3D%3D"
+          class="card-img-top" alt="Perfect-time">
+        <div class="card-body">
           <p><strong>1750 Likes</strong></p>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
             content.</p>
@@ -170,69 +175,97 @@
       </div>
 
     </div>
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
     <div class="tab-pane fade row" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-      <div class="row">
-      <div class="gallery">
-        <div class="col-4">
-      <div class="card" style="width: 18rem;">
-        <img
-        src="https://images.unsplash.com/photo-1737749684915-29624dc30552?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8"
-        class="card-img-top" alt="boda en la montaña">
-      </div>
-      </div>
-      
-      <div class="col-4">
-      <div class="card" style="width: 18rem;">
-        <img
-        src="https://images.unsplash.com/photo-1735760672905-954da053c445?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D"
-        class="card-img-top" alt="faro-nocturno">
-      </div>
-      </div>
+      <div class="row g-3">
+        <div class="gallery">
+          <div class="col-4">
+            <div class="card h-100" style="width: 18rem;">
+              <img
+                src="https://images.unsplash.com/photo-1737749684915-29624dc30552?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8"
+                class="card-img-top img-grid" alt="boda en la montaña">
+            </div>
+          </div>
 
-      <div class="col-4">
-      <div class="card" style="width: 18rem;">
-        <img
-        src="https://images.unsplash.com/photo-1736943993933-c1a407ed783c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0MHx8fGVufDB8fHx8fA%3D%3D"
-        class="card-img-top" alt="bueceo">
-      </div>
-      </div>
+          <div class="col-4">
+            <div class="card h-100" style="width: 18rem;">
+              <img
+                src="https://images.unsplash.com/photo-1735760672905-954da053c445?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top img-grid" alt="faro-nocturno">
+            </div>
+          </div>
 
-      <div class="col-4">
-      <div class="card" style="width: 18rem;">
-        <img
-        src="https://images.unsplash.com/photo-1537442949530-d90f6a1377c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0OHx8fGVufDB8fHx8fA%3D%3D"
-          class="card-img-top" alt="Oso-Polar">
-        </div>
+          <div class="col-4">
+            <div class="card h-100" style="width: 18rem;">
+              <img
+                src="https://images.unsplash.com/photo-1736943993933-c1a407ed783c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0MHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top img-grid" alt="bueceo">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card h-100" style="width: 18rem;">
+              <img
+                src="https://images.unsplash.com/photo-1537442949530-d90f6a1377c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0OHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top img-grid" alt="Oso-Polar">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card h-100" style="width: 18rem;">
+              <img
+                src="https://images.unsplash.com/photo-1738058223926-c82cf2128f6a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top img-grid" alt="cenita">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card h-100" style="width: 18rem;">
+              <img
+                src="https://images.unsplash.com/photo-1738168251394-9241984c8292?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8"
+                class="card-img-top img-grid" alt="Perfect-time">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card h-100" style="width: 18rem;">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1679064287823-fbd549bf47dd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8"
+                class="card-img-top img-grid" alt="Perfect-time">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card h-100" style="width: 18rem;">
+              <img
+                src="https://images.unsplash.com/photo-1737901685093-c5e05706efcf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2OHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top img-grid" alt="Perfect-time">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card h-100" style="width: 18rem;">
+              <img
+                src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D"
+                class="card-img-top img-grid" alt="Perfect-time">
+            </div>
+          </div>
         </div>
 
-        <div class="col-4">
-        <div class="card" style="width: 18rem;">
-          <img src="https://images.unsplash.com/photo-1738058223926-c82cf2128f6a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="cenita">
-        </div>
-      </div>
-        
-        <div class="col-4">
-        <div class="card" style="width: 18rem;">
-          <img src="https://images.unsplash.com/photo-1737901685093-c5e05706efcf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2OHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Perfect-time">
-        </div>
-        </div>
       </div>
 
     </div>
+  </div>
 
-    </div>
-    </div>
-    
-    
-    
-    
-    
+
+
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
